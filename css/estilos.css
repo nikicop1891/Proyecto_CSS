@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&subset=latin-ext,vietnamese');
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: 'Dancing Script', cursive;
+}
+body{
+/*  background: black;*/
+  max-width: 900px;
+  margin: 0 auto;
+}
+/*.contenido{
+  background: black;
+  max-width: 900px;
+}*/
+.izquierda{
+/*  float: left;*/
+  text-shadow: 2px 2px 2px #02010a;
+  top: 50%;
+}
+.container1{
+  background: #5b7989;
+  color: white;
+  padding: 15px;
+  border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+border: 0px solid #000000;
+}
+.container3{
+  background: orange;
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border: 0px solid #000000;
+}
+
+.c21, .c22{
+    display: flex;
+/*    padding: 10px;*/
+}
+
+.c21{
+  background: #82c3a6;
+}
+.c22{
+  background: #d5c75f;
+}
+#imagen2, #imagen3{
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  border:
+  /*margin: 30px;*/
+}
+#imagen1{
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  /*margin: 30px;*/
+}
+img{
+  border: solid 1px;
+  box-shadow: 2px 2px 2px #02010a;
+}
+.c31, .c33{
+  background: orange;
+}
