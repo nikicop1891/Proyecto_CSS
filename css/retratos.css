@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&subset=latin-ext,vietnamese');
-*{
+/**{
   margin: 0px;
   padding: 0px;
-  border: 0px;
-}
+}*/
 body{
   background: black;
-  max-width: 900px;
   font-family: 'Dancing Script', cursive;
+}
+#container{
+  width: 450px;
   margin: 0 auto;
 }
 .ima1, .ima2, .ima3, .ima4, .ima5, .ima6{
@@ -22,8 +23,7 @@ body{
   -webkit-border-radius: 10px 10px 0px 0px;
   border: 0px solid #000000;
   text-shadow: 2px 2px 2px #02010a;
-  display: flex;
-  justify-content:space-between;
+  text-align: center;
   padding: 15px;
 }
 .retratos{
@@ -36,14 +36,12 @@ body{
   color: White;
 }
 .container2{
-  display: flex;
-  flex-wrap: wrap;
   justify-content:space-between;
   background: yellow;
 
 }
 .divimg{
-  width: 33.33%;
+  width: 100%;
   text-align: center;
 }
 .ima1, .ima2, .ima3, .ima4, .ima5, .ima6{
@@ -75,8 +73,29 @@ body{
   -moz-border-radius: 0px 0px 10px 10px;
   -webkit-border-radius: 0px 0px 10px 10px;
   border: 0px solid #000000;
-  display: flex;
-  justify-content:space-between;
   text-align: center;
   padding: 15px;
+}
+@media (min-width: 900px) {
+  #container{
+    width: 900px;
+    margin: 0 auto;
+  }
+  .container1{
+    display: flex;
+    justify-content:space-between;
+  }
+  .container2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .divimg{
+    width: 33.33%;
+    text-align: center;
+  }
+  .container3{
+    display: flex;
+    justify-content:space-between;
+      text-align: center;
+  }
 }
