@@ -10,7 +10,7 @@ body{
   font-family: 'Dancing Script', cursive;
   margin: 0 auto;
 }
-.ima1, .ima2, .ima3{
+.ima1, .ima2, .ima3, .ima4, .ima5, .ima6{
   border: solid 1px;
   box-shadow: 2px 2px 2px #02010a;
 }
@@ -26,7 +26,7 @@ body{
   justify-content:space-between;
   padding: 15px;
 }
-.inicio{
+.retratos{
   text-decoration:none;
 }
 .inicio, .paisajes, .retratos:visited{
@@ -35,39 +35,39 @@ body{
 .inicio, .paisajes, .retratos:active{
   color: White;
 }
-.c21{
-  background: #82c3a6;
-  text-align: center;
-}
-.c22{
+.container2{
   display: flex;
   flex-wrap: wrap;
-  background: #d5c75f;
-  text-align: center;
-  font-size: 20px;
-  padding: 20px;
+  justify-content:space-between;
+  background: yellow;
+
 }
 .divimg{
-  width: 50%;
+  width: 33.33%;
+  text-align: center;
 }
-.ima1, .ima2, .ima3{
+.ima1, .ima2, .ima3, .ima4, .ima5, .ima6{
   margin: 10px;
 }
-.ima2:hover{
--webkit-transform: rotate(10deg);
--moz-transform: rotate(10deg);
--o-transform: rotate(10deg);
--ms-transform: rotate(10deg);
-transform: rotate(10deg);
-border: solid 2px;
-box-shadow: 2px 2px 2px #82c3a6;
+/*-webkit-filter:/* Chrome y Safari */
+/*-moz-filter:/* Mozilla */
+/*-ms-filter:/* Internet Explorer */
+/*-o-filter:/* Opera */
+
+.ima1{
+  filter: blur(10px);
 }
-.ima3:hover{
-  -webkit-transform: translate(20px, -5px);
--moz-transform: translate(20px, -5px);
--o-transform: translate(20px, -5px);
--ms-transform: translate(20px, -5px);
-transform: translate(20px, -5px);
+.ima2, .ima4, .ima6{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.ima3{
+  -webkit-filter: sepia(90%);
+  -moz-filter: sepia(90%);
+  -ms-filter: sepia(90%);
+  -o-filter: sepia(90%);
 }
 .container3{
   background: orange;
